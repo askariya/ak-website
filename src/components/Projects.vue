@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="Projects">
     <body>
       <div class="container">
         <div class="row justify-content-center">
@@ -18,7 +18,7 @@
             </center>
           </div>
           <div class="col-8" border="1px solid black">
-            <h2>Introduction</h2>
+            <h2>Description</h2>
             <p>
               Hello, and welcome to my page! <br> My name is Arunalu Kariyawasam and I am a student that has just completed my final
               year in the Software Engineering (BSc. of Science) program at University of Calgary.
@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Projects',
   data () {
     return {
       msg: 'Summary'

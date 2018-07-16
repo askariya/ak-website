@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
+    <!-- <Projects></Projects> -->
     <router-view/>
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import Projects from './components/Projects'
 export default {
   name: 'App',
   components: {
-    'Navigation': Navigation
+    'Navigation': Navigation,
+    'Projects': Projects
   }
 }
 </script>
